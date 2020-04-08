@@ -1,11 +1,17 @@
 package com.sachin.rest.webservices.restfulwebservices.user;
 
-import java.util.Date;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
+import java.util.Date;
+//== Swagger Documentation
+@ApiModel(description = "User related information")
 public class User {
     // == fields ==
     private Integer id;
+    @ApiModelProperty(notes = "Name should have at least 2 Char")
     private String name;
+    @ApiModelProperty(notes = "Birth Date should not Past Date")
     private Date birthDate;
 
     // == Default constructor
