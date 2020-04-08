@@ -1,0 +1,6 @@
+com/sachin/rest/webservices/restfulwebservices/RestfulWebservicesApplication.class
+com/sachin/rest/webservices/restfulwebservices/helloWorld/HelloWorldController.class
+com/sachin/rest/webservices/restfulwebservices/helloWorld/HelloWorldBean.class
+com/sachin/rest/webservices/restfulwebservices/user/UserDaoService.class
+com/sachin/rest/webservices/restfulwebservices/user/UserResource.class
+com/sachin/rest/webservices/restfulwebservices/user/User.class
